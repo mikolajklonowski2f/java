@@ -1,0 +1,39 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_Klonowski()
+ {
+ window.close()
+ }
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="Klonowski" cols="80" rows="25" disabled>
+    <html>
+	<head>
+ <script type="text/javascript">
+ function klient(nazwa_k,miasto_k,wysokosc_k)
+{
+this.nazwa=nazwa_k;
+this.miasto=miasto_k;
+this.wysokosc=wysokosc_k;
+}
+ klient.prototype.wypisz = function () 
+ {
+ alert(this.nazwa + ' ' + this.miasto+ ' ' + this.wysokosc);
+ };
+var wiezowiec1 = new klient("Zlota 44", "Warszawa", "192m"); 
+var wiezowiec2 = new klient('Szkieletor', 'Krakow', '102m');
+wiezowiec1.wypisz(); 
+wiezowiec2.wypisz();
+ document.write("dostęp do właściwości"+"<br>");
+// poniżej dostęp do pól osoby1
+ document.write("wiezowiec pierwszy"+" "+wiezowiec1.nazwa+" "+wiezowiec1.miasto+" "+wiezowiec1.wysokosc);
+ </script>
+ </head>
+<body>
+<br>
+ programowanie obiektowe 
+</body>
+</html>
