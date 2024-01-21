@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+
+
+  
+    <td>1. W jaki sposób można określić właściwość danego obiektu ? <br>
+Właściwość danego obiektu można określić (wpisać daną do pola 
+odpowiedzialnego za właściwość)<br>
+Sposób 1<br>
+Używając zapisu postaci: <br>
+a)<br>
+nazwa_obiektu.nazwa_właściwości="tekst";  dla właściwości typu tekstowego<br>
+np.auto.marka="Opel Omega";<br>
+b)<br>
+nazwa_obiektu.nazwa_właściwości=liczba;  dla właściwości typu liczbowego<br>
+np.<br>
+auto.rok=1996;<br>
+auto.cena=25000;<br>
+Sposób 2<br>
+używając zapisu postaci: <br>
+nazwa_obiektu[nazwa_właściwości]; <br>
+np. auto[cena]=25000;<br>
+
+        </td>
+  
+    
+    <td>2. W jaki sposób można odwołać się do pól (właściwości) i metod? <br>
+Odwołanie do pól (właściwości) i metod.<br>
+Do właściwości i metod można się odwołać podobnie jak do zwykłych zmiennych <br>
+i funkcji, trzeba tylko przed ich nazwą umieścić nazwę obiektu, którego są elementami <br>
+(np. zmienną, która przechowuje dany obiekt), i kropkę.<br>
+np. console.log(samochod1.kolor);<br>
+ wyświetla kolor obiektu samochod<br>
+</td>
+ 
+ 
+    <td>3. Wymień cechy charakterystyczne konstruktora.<br>
+       Cechy charakterystyczne konstruktora<br>
+ jest wywoływany (uruchamiany) automatycznie w chwili tworzenia obiektu danej klasy - na 
+rzecz tego obiektu<br>
+ nazywa się tak samo jak klasa<br>
+ nie zwraca żadnej wartości ,<br>
+ może przyjmować argumenty - tak jak zwykła funkcja czy metoda, aby następnie powołać do 
+życia obiekt za pomocą operatora new. <br>
+</td>
+ 
+    
+    <td> 4. Konstruowanie obiektu na podstawie przykładuobiekt ma trzy pola oraz jedną metodę.<br>
+	Temat: Konstruowanie obiektówobiekt ma trzy pola oraz jedną metodę.<br>
+var osoba_1 =<br>
+{<br>
+nazwisko : ‘Kowalski’,<br>
+imie :’Jan’,<br>
+zawod :’piekarz’,<br>
+wyświetl :function ()<br>
+{<br>
+Document.write(this.nazwisko + ‘ ‘ + this.imie)<br>
+}<br>
+}<br>
+Uwaga1:<br>
+Słowo kluczowe this  pozwala odwołać się do pola lub metody obiektu z wnętrza tego obiektu.<br>
+Uwaga2:<br>
+Metody i pola muszą być odzielne przecinkami w obrębie jednego obiektu.<br>
+  <br>
+   
+    <td> 5. Znaczenie słowa this. Jak oddzielamy pola oraz metody?<br>
+ Klasa <br>
+ Obiekt <br>
+ Właściwość <br>
+ Metoda <br>
+ Konstruktor <br>
+ Dziedziczenie <br>
+ Hermetyzacja <br>
+ Polimorfizm<br>
+        Terminologia (podsumowanie)
+Klasa (ang. "class")<br>
+ Klasa rodzaj foremki, która opisuje nam jak będą wyglądać tworzone na jej podstawie nowe 
+obiekty. Klasa jest to złożony typ będący opisem (definicją) obiektu/obiektów wraz z definicją pól i 
+metod obiektów.<br>
+Obiekt (ang. "object")<br>
+ Instancja (byt, twór) który powstał na podstawie klasy. Czyli Obiekty są konstrukcjami 
+programistycznymi mającymi tak zwane właściwości (inaczej pola obiektu), którymi mogą być 
+zmienne lub inne obiekty. Z obiektami powiązane są funkcje wykonujące operacje na ich 
+właściwościach, nazywane metodami.<br>
+Właściwość (ang. "property")<br>
+ Własność obiektu, np. kolor.<br>
+Metoda (ang. "method")<br>
+ Zdolność (czynność) którą umie wykonywać obiekt, np. chodzenie (idź). Realizowane w postaci 
+konstrukcji podobnej do funkcji.<br>
+Konstruktor (ang. "constructor")<br>
+ Metoda wywoływana w momencie inicjalizacji obiektu. np. tworzymy obiekt a wraz z tworzeniem 
+obiektu uruchomi się metoda, która nada np. Imię i Nazwisko.
+Destruktor (ang. "descructor "jest wywoływany automatycznie podczas niszczenia obiektów. Nie 
+przyjmuje żadnych argumentów. W przeciwieństwie do konstruktorów, w klasie może być tylko 
+jeden destruktor<br>
+Dziedziczenie (ang. "inheritance")<br>
+ Klasa może dziedziczyć własności od innej klasy. Tworzymy klasę na podstawie innej klasy 
+pobierając od „rodzica” właściwości i metody, może dopisać nowe pola i nowe metody.
+Hermetyzacja (lub enkapsulacja - ang. "encapsulation")
+Wewnątrz ciała klasy znajdują się pola i metody. Część pól i metod można odpowiednio ukryć przed 
+"zewnętrznym światem" klasy tak jak to ma miejsce z przedmiotami ze świata rzeczywistego.<br>
+Polimorfizm (ang. "polymorphism")<br>
+ Polimorfizm czyli wielopastaciowość. Oznacza to, że dany obiekt może zmieniać swoją postać w 
+zależności od potrzeb. Może to być realizowane w formie metody wywoływanej z różną ilością 
+parametrów. Tak więc utorzony obiekt może być traktowany polimorficznie bo zachowuje się różnie 
+w zależności od sposobu uruchamiania jego metody.<br>
+
+</td>
+ 
+
+</body>
+</html>
